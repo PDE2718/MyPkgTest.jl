@@ -57,7 +57,14 @@ $(document).ready(function() {
       "right": "\\]",
       "display": true
     }
-  ]
+  ],
+  "macros": {
+    "\\Xi": "X_{i}",
+    "\\Ru": "R_{\\mathrm{univ.}}",
+    "\\Pstd": "P_{\\mathrm{std}}",
+    "\\RR": "\\mathbb{R}",
+    "\\Tstd": "T_{\\mathrm{std}}"
+  }
 }
 
   );
