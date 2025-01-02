@@ -1,0 +1,13 @@
+name = "MyPkgTest"
+uuid = "95ca7b85-dcb6-4fcc-8bfb-40cbdebb9085"
+authors = ["PDE2718"]
+version = "1.0.0-DEV"
+
+[compat]
+julia = "1.10"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
