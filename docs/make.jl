@@ -37,7 +37,8 @@ makedocs(;
 
 deploydocs(;
     repo="github.com/PDE2718/MyPkgTest.jl",
+    target = "gh-pages",
     devbranch="main",
-    devurl="dev",
-    versions = ["dev" => "dev"],
+    devurl="main",
+    versions = ["main" => "main"],
 )
